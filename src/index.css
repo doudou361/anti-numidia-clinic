@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+@import './styles/tokens.css';
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
